@@ -2,4 +2,4 @@ A block editor based on the one described in Starting Forth. It may seem weird t
 
 blocks.fb has the editor in the beginning of the file and go now uses that file for blocks and loads the editor after starting gforth. The text file blockedit.fs got me started, then I used it to make blocks.fb. Blocks.fb has diverged from blocksedit.fs and I see no reason to keep them in sync now. I will probably keep updating blocks.fb as I find that I want new commands to make my life easier.
 
-I added ^, v, >, and < for single character movement. Sometimes it's just easier than using t.
+I added ^, v, >, and <, meaning up, down, right, and left, for single character movement. Sometimes it's just easier than using t.
